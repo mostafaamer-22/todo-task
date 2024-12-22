@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Err_MapLink_must_not_exceed_500_characters" xml:space="preserve">
+    <value>MapLink must not exceed 500 characters</value>
+  </data>
+  <data name="Application.BadRequest" xml:space="preserve">
+    <value>The Request is bad</value>
+  </data>
+  <data name="Application.Conflict" xml:space="preserve">
+    <value>There was a conflict with the current state of the resource.</value>
+  </data>
+  <data name="Application.Forbidden" xml:space="preserve">
+    <value>Access to this resource is forbidden.</value>
+  </data>
+  <data name="Application.InternalServerError" xml:space="preserve">
+    <value>An unexpected error occurred. Please try again later.</value>
+  </data>
+  <data name="Application.NotFound" xml:space="preserve">
+    <value>The requested resource was not found.</value>
+  </data>
+  <data name="Application.ServiceUnavailable" xml:space="preserve">
+    <value>The service is temporarily unavailable. Please try again later.</value>
+  </data>
+  <data name="Application.TooManyRequests" xml:space="preserve">
+    <value>You have sent too many requests. Please wait and try again.</value>
+  </data>
+  <data name="Application.Unauthorized" xml:space="preserve">
+    <value>The Request is not authorized</value>
+  </data>
+  <data name="Application.UnprocessableEntity" xml:space="preserve">
+    <value>The request could not be processed.</value>
+  </data>
+  <data name="Application.Validation" xml:space="preserve">
+    <value>One or more validation errors occurred.</value>
+  </data>
+  <data name="Authority.AuditNotFound" xml:space="preserve">
+    <value>Audit not found.</value>
+  </data>
+  <data name="Authority.AuthorityMediaNotFound" xml:space="preserve">
+    <value>Authority media not found.</value>
+  </data>
+  <data name="Authority.BranchNotFound" xml:space="preserve">
+    <value>Branch not found.</value>
+  </data>
+  <data name="Authority.DirectoryAlreadyExists" xml:space="preserve">
+    <value>Directory already exists.</value>
+  </data>
+  <data name="Authority.DirectoryNotFound" xml:space="preserve">
+    <value>Directory not found.</value>
+  </data>
+  <data name="Authority.HistoryAlreadyExists" xml:space="preserve">
+    <value>History already exists.</value>
+  </data>
+  <data name="Authority.HistoryNotFound" xml:space="preserve">
+    <value>History not found.</value>
+  </data>
+  <data name="Authority.InvalidAuditSnapshot" xml:space="preserve">
+    <value>Invalid audit snapshot.</value>
+  </data>
+  <data name="Authority.MediaNotFound" xml:space="preserve">
+    <value>Media not found.</value>
+  </data>
+  <data name="Authority.NotFound" xml:space="preserve">
+    <value>Authority not found or you don't have permission to view it.</value>
+  </data>
+  <data name="Authority.PresidentAlreadyExists" xml:space="preserve">
+    <value>President already exists.</value>
+  </data>
+  <data name="Authority.PresidentNotFound" xml:space="preserve">
+    <value>President not found</value>
+  </data>
+  <data name="Authority.SocialMediaLinkNotFound" xml:space="preserve">
+    <value>Social media link not found.</value>
+  </data>
+  <data name="Er_Url_must_be_ avalid_URI" xml:space="preserve">
+    <value>Url must be a valid URI</value>
+  </data>
+  <data name="Err_AddressAr_must_not_exceed_500_characters" xml:space="preserve">
+    <value>AddressAr must not exceed 500 characters</value>
+  </data>
+  <data name="Err_AddressEn_must_not_exceed_500_characters" xml:space="preserve">
+    <value>Platform must not exceed 100 characters</value>
+  </data>
+  <data name="ERR_ATLEASTONEDESCRIPTION_REQUIRED" xml:space="preserve">
+    <value>At Least One Description Required</value>
+  </data>
+  <data name="ERR_ATLEASTONETITLE_REQUIRED" xml:space="preserve">
+    <value>At Least One Description Required</value>
+  </data>
+  <data name="Err_Branches_must_not_be_empty." xml:space="preserve">
+    <value>Branches must not be empty.</value>
+  </data>
+  <data name="Err_Contacts_must_not_be_null" xml:space="preserve">
+    <value>Contacts must not be null</value>
+  </data>
+  <data name="ERR_DESCRIPTION_ARABIC_REQUIRED" xml:space="preserve">
+    <value>The description must contain Arabic content .</value>
+  </data>
+  <data name="ERR_DESCRIPTION_ENGLISH_REQUIRED" xml:space="preserve">
+    <value>The description must contain English content if Arabic content is not provided</value>
+  </data>
+  <data name="Err_DescriptionAr_must_not_exceed_1000_characters" xml:space="preserve">
+    <value>DescriptionEn must not exceed 1000 characters</value>
+  </data>
+  <data name="Err_DescriptionEn_must_not_exceed_1000_characters" xml:space="preserve">
+    <value>DescriptionEn must not exceed 1000 characters</value>
+  </data>
+  <data name="Err_Email_is_required" xml:space="preserve">
+    <value>Email is required</value>
+  </data>
+  <data name="Err_Email_must_be_avalid_email_address" xml:space="preserve">
+    <value>MapLink must not exceed 500 characters</value>
+  </data>
+  <data name="Err_Error_Server" xml:space="preserve">
+    <value>Error Server</value>
+  </data>
+  <data name="ERR_LANGUAGE_CONSISTENCY" xml:space="preserve">
+    <value>The Title and Description must be in the same language (both Arabic or both English).</value>
+  </data>
+  <data name="Err_MapLink_is_required" xml:space="preserve">
+    <value>MapLink is required</value>
+  </data>
+  <data name="Application.Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="ErrTitleNull" xml:space="preserve">
+    <value>title Must not be null</value>
+  </data>
+  <data name="ErrDescriptionNull" xml:space="preserve">
+    <value>Description Must not be null </value>
+  </data>
+</root>
